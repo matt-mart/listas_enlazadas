@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1566855311 source:c:\users\adminpc\desktop\eda\practico_listas_enlazadas\main.cpp
+	<iostream>
+	"./lib/nodo.hpp"
+	"./lib/queue.hpp"
+	"./lib/delete_queue.hpp"
+	"./lib/create_queue_recursive.hpp"
+	"./lib/mostrar_queues.hpp"
+
+1566855394 c:\users\adminpc\desktop\eda\practico_listas_enlazadas\lib\nodo.hpp
+
+1566851400 c:\users\adminpc\desktop\eda\practico_listas_enlazadas\lib\queue.hpp
+
+1566853169 c:\users\adminpc\desktop\eda\practico_listas_enlazadas\lib\delete_queue.hpp
+
+1566853708 c:\users\adminpc\desktop\eda\practico_listas_enlazadas\lib\create_queue_recursive.hpp
+
+1566855101 c:\users\adminpc\desktop\eda\practico_listas_enlazadas\lib\mostrar_queues.hpp
+
