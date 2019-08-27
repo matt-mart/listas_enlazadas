@@ -35,8 +35,8 @@
 		<Unit filename="lib/create_queue_iterative.hpp" />
 		<Unit filename="lib/create_queue_recursive.hpp" />
 		<Unit filename="lib/delete_queue.hpp" />
-		<Unit filename="lib/mostrar_queues.hpp" />
-		<Unit filename="lib/nodo.hpp" />
+		<Unit filename="lib/mostrar_queue.hpp" />
+		<Unit filename="lib/node.hpp" />
 		<Unit filename="lib/queue.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>

@@ -1,20 +1,21 @@
-NODO* Delete_Nodos(
-  NODO* _nodo
+
+NODE* Delete_Nodes (
+  NODE* _node
 ){
 
-  if ( _nodo == nullptr){
-    delete _nodo;
+  if ( _node == nullptr ){
+    delete _node;
     return nullptr;
   }
 
-  Delete_Nodos( _nodo->proximo );
+  Delete_Nodes( _node->next );
 
 }
 
-void Delete_Queue(
-  QUEUE* queue
+void Delete_Queue (
+  QUEUE* _queue
 ){
 
-  queue->raiz = Delete_Nodos( queue->raiz );
+  _queue->head = Delete_Nodes( _queue->head );
 
 }

@@ -1,9 +1,9 @@
 // Contenedor FIFO? First in first out
 // QUEUE = COLA
 
-struct QUEUE{
+struct QUEUE {
 
-  NODO* raiz = nullptr;
+  NODE* head = nullptr;
 
 };
 

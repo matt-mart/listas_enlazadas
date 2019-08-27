@@ -1,23 +1,26 @@
 
-NODO* Crear_Nodos(int cantidad){
-
-  if ( cantidad == 0 )
-    return nullptr;
-
-  NODO* nodo = new NODO;
-
-  nodo->proximo = Crear_Nodos (cantidad-1);
-
-  return nodo;
-}
-
-void Create_Queue_Recursive(
-  QUEUE* queue,
-  int largo
+NODE* Create_Nodes (
+  int _n
 ){
 
-  Delete_Queue( queue );
-  queue->raiz = Crear_Nodos( largo );
+  if ( _n == 0 )
+    return nullptr;
+
+  NODE* node = new NODE;
+
+  node->next = Create_Nodes( _n - 1 );
+
+  return node;
+
+}
+
+void Create_Queue_Recursive (
+  QUEUE* _queue,
+  int    _size
+){
+
+  Delete_Queue( _queue );
+  _queue->head = Create_Nodes( _size );
 
 
 
